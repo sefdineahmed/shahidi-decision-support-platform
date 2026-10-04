@@ -118,16 +118,16 @@ def contact():
     col1, col2 = st.columns([1.8, 1], gap="large")
     
     with col1:
-        st.markdown("### ✉️ Envoyez-nous un message")
+        st.markdown("### Envoyez-nous un message")
         with st.form("contact_form", clear_on_submit=True):
             name = st.text_input("Nom Complet *", placeholder="Ex: Dr. Jean Dupont")
             email = st.text_input("Email Professionnel *", placeholder="jean.dupont@chu-dakar.sn")
             message = st.text_area("Votre Message *", height=180, placeholder="Comment pouvons-nous vous aider ?")
             
-            submitted = st.form_submit_button("🚀 Envoyer la demande")
+            submitted = st.form_submit_button("Envoyer la demande")
 
     with col2:
-        st.markdown("### 📍 Informations")
+        st.markdown("### Informations")
         st.markdown(f"""
             <div class='contact-info-card'>
                 <div class='info-item'>
@@ -152,7 +152,7 @@ def contact():
                 <h4 style="color:#1e3a8a;">Suivez-nous</h4>
                 <div style="display: flex; gap: 15px;">
                     <a href="https://linkedin.com/in/sefdineahmed" style="text-decoration:none;">🔵 LinkedIn</a>
-                    <a href="#" style="text-decoration:none;">⚫ Twitter / X</a>
+                    
                 </div>
             </div>
         """, unsafe_allow_html=True)
@@ -172,7 +172,7 @@ def contact():
                     st.error("❌ Une erreur technique est survenue. Veuillez nous contacter directement par téléphone.")
 
     # Carte et Footer
-    st.markdown("### 🗺️ Localisation")
+    st.markdown("### Localisation")
     st.markdown("""
         <div class='map-container'>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.966752317112!2d-17.467686685158145!3d14.713437589729864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQyJzQ4LjQiTiAxN8KwMjcnNTUuOCJX!5e0!3m2!1sfr!2ssn!4v1625123456789" 
