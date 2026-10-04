@@ -4,7 +4,7 @@ from utils import TEAM  # On utilise la liste définie dans utils.py pour évite
 
 def a_propos():
     # --- SECTION STATISTIQUES ---
-    st.markdown("### 📊 Principaux Indicateurs Épidémiologiques")
+    st.markdown("### Principaux Indicateurs Épidémiologiques")
     cols_stats = st.columns(3)
     stats = [
         {"icon": "🕒", "value": "58%", "label": "Survie à 5 ans"},
@@ -24,7 +24,7 @@ def a_propos():
     st.divider()
 
     # --- SECTION PERFORMANCE ---
-    st.markdown("## ⚡ Performance des Modèles")
+    st.markdown("## Performance des Modèles")
     # ... (Le code de ton tableau reste le même, il fonctionne bien)
     st.markdown("""
     <div style="background: white; padding: 1rem; border-radius: 10px; border: 1px solid #e2e8f0;">
@@ -50,7 +50,7 @@ def a_propos():
     st.divider()
 
     # --- SECTION ÉQUIPE ---
-    st.markdown("## 👥 Équipe de Recherche")
+    st.markdown("## Équipe de Recherche")
     
     # AJOUT : Curseur pour régler la taille des photos
     photo_width = st.slider("Ajuster la taille des photos", min_value=100, max_value=400, value=220)
