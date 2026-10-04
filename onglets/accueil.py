@@ -129,7 +129,7 @@ def accueil():
     with col1:
         st.markdown("""
             <div class="info-card">
-                <h3>🚀 Précision</h3>
+                <h3>Précision</h3>
                 <p>Algorithmes de Deep Survival atteignant plus de 92% de C-index.</p>
             </div>
         """, unsafe_allow_html=True)
@@ -137,7 +137,7 @@ def accueil():
     with col2:
         st.markdown("""
             <div class="info-card">
-                <h3>📊 Visualisation</h3>
+                <h3>Visualisation</h3>
                 <p>Tableaux de bord interactifs pour un suivi patient en temps réel.</p>
             </div>
         """, unsafe_allow_html=True)
@@ -145,7 +145,7 @@ def accueil():
     with col3:
         st.markdown("""
             <div class="info-card">
-                <h3>🔐 Sécurité</h3>
+                <h3>Sécurité</h3>
                 <p>Protection des données médicales conforme aux standards internationaux.</p>
             </div>
         """, unsafe_allow_html=True)
